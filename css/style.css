@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url('../papelverjurado.jpg');
+}
+
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0auto;
+    text-align: justify;
+    font-family: 'Open Sans Condensed', sans-serif;
+   
+}
+
+h1{
+    text-align: center;
+    
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+.contenido1{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.contenido2{
+    width: 75%;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+     
+}
+.parte2{
+    margin-bottom: 70px;
+}
+
+h2{
+    color: darkred;
+}
+.uno ul{
+  list-style: none;
+    
+}
+.uno{
+    width:30%;
+     display: inline-block;
+    list-style: none;
+     vertical-align: top;
+    padding: 12px;
+    
+}
+.dos{
+    width:30%;
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    padding:12px;
+}
+
+.tres{
+    width:30%;
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    padding:12px;
+}
+
+@media (max-width: 470px) {
+    body{
+    width:90%;
+}
+    .parte2 li{
+        width: 100%;
+        display: block;
+    }
+    }
+
+@media print{
+    h1,h2{       
+        color:black }
+}
+    
+    
+
