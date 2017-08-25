@@ -69,7 +69,7 @@ h2{
     padding:12px;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 470px){
     .container{
     width:90%;
 }
