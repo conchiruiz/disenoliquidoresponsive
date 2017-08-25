@@ -10,7 +10,7 @@ body{
 .container{
     width: 80%;
     max-width: 1000px;
-    margin: 0auto;
+    margin: 0 auto;
     text-align: justify;
     font-family: 'Open Sans Condensed', sans-serif;
    
@@ -70,7 +70,7 @@ h2{
 }
 
 @media (max-width: 470px) {
-    body{
+    .container{
     width:90%;
 }
     .parte2 li{
